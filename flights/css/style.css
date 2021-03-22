@@ -1,0 +1,109 @@
+@media only screen and (max-width:992px)
+{
+	.row
+	{
+		display:
+	}
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+ .bi
+ {
+	 background-image:url("../img/back.jpg");
+	 background-size:cover;
+ }
+ .menubar
+ {
+	
+	 background-color:black;
+	 text-align:center;
+ }
+ .menubar ul 
+ {
+	 display:inline-flex;
+	 border:green;
+
+ }
+ .menubar li{
+	 list-style:none;
+ }
+ .menubar ul li a
+ {
+	 color:white;
+ }
+ .menubar ul li a:hover
+ {
+	border-radius:10px;
+	background-color:red;
+	list-style:none;
+	color:white;
+	text-decoration:none;
+ }
+ .menubar a{
+	 text-decoration:none;
+	 padding:10px;
+	
+ }
+ .menubar li{
+	 padding:15px
+ }
+ .menubar ul{
+	 padding:15px;
+ }
+.submenu
+{
+	display:none;
+}
+.menubar ul li:hover .submenu{
+	position:absolute;
+	background-color:black;
+	border-radius:10px;
+	display:block;
+	color:white;
+	margin-top:15px;
+ }
+ .submenu ul
+ {
+	 display:block;
+ }
+ .submenu ul li 
+ {
+	border-bottom:2px solid red;
+ }
+ .col
+ {
+	 width:450px;
+	 height:350px;
+	 background-color:rgba(0,0,0,0.4);
+	 padding:15px;
+	 margin:20px; /* background */
+ }
+ .row
+ {
+	 text-align:justify;
+	 display:flex;
+	 color:white;
+ }
+ .row h2
+ {
+	 text-decoration:underline;
+	 text-align:center;
+ }
+ .ft
+ {
+	 text-align:center;
+	 background-color:black;
+	 color:white;
+	padding:50px;
+	 height:20px;
+ }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
